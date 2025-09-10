@@ -41,4 +41,8 @@ def starSpiral(monkey, banana):
         star(banana)
         banana += 5
 
-starSpiral(60, 6)
+#starSpiral(60, 6)
+
+turtle.goto(0,0)
+
+squareSpiral(100, 3)

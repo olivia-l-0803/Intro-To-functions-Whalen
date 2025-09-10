@@ -13,6 +13,8 @@ def triangle(length):
     t.right(120)
     t.forward(length)
     t.right(120)
+    t.forward(length)
+    t.right(120)
   
 def square(length):
     t.forward(length)
@@ -21,16 +23,10 @@ def square(length):
     t.right(90)
     t.forward(length)
     t.right(90)
-   
-def squareSpiral(irange):
-    size = 5
-    for i in range(irange):
-        square(size)
-        size += 15
-        t.right(5)
+    t.forward(length)
 
-squareSpiral(60)
+triangle(100)
 
-for i in range(4):
-    t.forward(100)
-    t.left(90)
+t.goto(0,0)
+
+square(100)

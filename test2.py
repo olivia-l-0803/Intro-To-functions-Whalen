@@ -48,3 +48,10 @@ turtle.goto(0,0)
 
 
 starSpiral(60, 6)
+
+turtle.clear()
+turtle.goto(0,0)
+
+
+
+squareSpiral(60, 6)
